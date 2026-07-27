@@ -1,0 +1,17 @@
+# 1. Inicializar el repositorio Git local
+git init
+
+# 2. Configurar la rama principal como 'main'
+git branch -M main
+
+# 3. Vincular tu proyecto local con el repositorio de GitHub
+git remote add origin https://github.com/tu-usuario/agente-bimbambuy.git
+
+# 4. Agregar todos los archivos al área de preparación (staging)
+git add .
+
+# 5. Guardar los cambios con un mensaje de commit
+git commit -m "feat: initial commit - agente RAG para BimBam Buy"
+
+# 6. Subir tu código a GitHub
+git push -u origin main
